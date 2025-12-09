@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+    <!-- #1 Google Fonts:
+
+Add Google Fonts here (or at the top of your CSS file) 
+and use them somewhere in this webpage -->
+    <!-- ??? -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- ??? -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <h1>Teach Something Project 2:</h1>
+        <p id="tagline">The Results!</p>
+        <p><button id="myBtn">Click me!</button></p>
+      </div>
+
+      <!-- #2 Bootstrap navbar DONE--> 
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> </nav>
+  
+
+    
+
+      <!-- The flexible grid (content) -->
+      <div class="row">
+        <div class="side">
+          <h2>About Me</h2>
+          <h5>Photo of me:</h5>
+          <!-- <div class="fakeimg" style="height: 200px">Image</div> -->
+          <img src="images/rabbit.png" class="side-img" alt="dog" />
+
+          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          <h3>More Text</h3>
+          <p>Lorem ipsum dolor sit ame.</p>
+
+          <img src="images/dog1.jpg" class="side-img" alt="dog" />
+
+          <br />
+
+          <img src="images/dog2.jpg" class="side-img" alt="dog" />
+
+          <br />
+
+          <img src="images/cat3.jpg" class="side-img" alt="kitty" />
+        </div>
+        <div class="main" id="main">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+
+          <img src="images/cat2.jpg" class="big-img" alt="kitty" />
+
+          <p>Some text..</p>
+          <p>
+            Sunt in culpa qui officia deserunt mollit anim id est laborum
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco.
+          </p>
+          <br />
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <!-- <div class="fakeimg" style="height: 200px">Image</div> -->
+          <img src="images/cat1.jpg" class="big-img" alt="kitty" />
+
+          <p>Some text..</p>
+          <p>
+            Sunt in culpa qui officia deserunt mollit anim id est laborum
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco.
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <h2>Footer</h2>
+      </div>
+    </div></div></div></div>
+    <!-- Some code taken from https://www.w3schools.com/css/css3_flexbox_responsive.asp -->
+  </body>
+</html>

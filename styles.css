@@ -1,0 +1,79 @@
+/* #3 CSS Variables:
+Set up a CSS variable to use in the sidebar (.side) and the footer (.footer)
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+ /* when i add this, the whole layout breaks? (css vars) */
+
+ :root {
+  --side-footer-bg: #9da7eb;
+} 
+
+.side {
+  flex: 30%;
+  background-color: var(--side-footer-bg);
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: var(--side-footer-bg);
+} 
+
+.audiowide-regular {
+  font-family: "Audiowide";
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.big-img {
+  height: 200px;
+}
+
+.side-img {
+  height: 100px;
+  border-radius: 5%;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  font-family: "Audiowide";
+  text-align: center;
+  color: white;
+  background-image: url("images/green-pattern.png");
+}
+
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+
+  .big-img {
+    height: 100%;
+    width: 100%;
+  }
+}
