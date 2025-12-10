@@ -12,7 +12,7 @@ document.getElementById("myBtn").addEventListener("click", colorHour);
 // #5 Arrow Functions 
 // Make this function an arrow function
 
-function colorHour() {
+const colorHour = () => {
   // changed into switch statements
   switch (hour) {
     case 8:
